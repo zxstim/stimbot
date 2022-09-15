@@ -261,7 +261,7 @@ class FileUploadView(APIView):
     def put(self, request, format=None):
         if request.META['HTTP_API_SECRET'] == settings.API_SECRET:
             file_obj = request.FILES['file']
-            destination = open('/home/ubuntu/pyhash-pro-prod/pyhash-pro/scripts/' + file_obj.name, 'wb+')
+            destination = open('/insert/your/project/path/scripts/' + file_obj.name, 'wb+')
             for chunk in file_obj.chunks():
                 destination.write(chunk)
             destination.close()
