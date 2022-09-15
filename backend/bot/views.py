@@ -55,7 +55,7 @@ class BotList(APIView):
 
             [Service]
             Type=simple
-            ExecStart=/home/ubuntu/pyhash-pro-prod/botenv/bin/python3 /home/ubuntu/pyhash-pro-prod/pyhash-pro/scripts/bot{serializer.data['id']}.py
+            ExecStart=/insert/your/environment/path/bin/python3 /insert/your/project/path/scripts/bot{serializer.data['id']}.py
             StandardInput=tty-force
 
             [Install]

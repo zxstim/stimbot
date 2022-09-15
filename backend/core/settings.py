@@ -190,12 +190,12 @@ DATABASES = {
 
 # make sure to install redis
 
-CACHES = {
-    'default': {
-        'BACKEND': 'django.core.cache.backends.redis.RedisCache',
-        'LOCATION': 'redis://127.0.0.1:6379',
-    }
-}
+# CACHES = {
+#     'default': {
+#         'BACKEND': 'django.core.cache.backends.redis.RedisCache',
+#         'LOCATION': 'redis://127.0.0.1:6379',
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
@@ -241,12 +241,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #Email AWS setting 
 
-# EMAIL_BACKEND = 'django_ses.SESBackend'
-# AWS_ACCESS_KEY_ID = environ.get('AWS_ACCESS_KEY_ID')
-# AWS_SECRET_ACCESS_KEY = environ.get('AWS_SECRET_ACCESS_KEY')
-# AWS_SES_REGION_NAME = environ.get('AWS_SES_REGION_NAME')
-# AWS_SES_REGION_ENDPOINT = environ.get('AWS_SES_REGION_ENDPOINT')
-# DEFAULT_FROM_EMAIL = environ.get('DEFAULT_FROM_EMAIL')
+EMAIL_BACKEND = 'django_ses.SESBackend'
+AWS_ACCESS_KEY_ID = environ.get('AWS_ACCESS_KEY_ID')
+AWS_SECRET_ACCESS_KEY = environ.get('AWS_SECRET_ACCESS_KEY')
+AWS_SES_REGION_NAME = environ.get('AWS_SES_REGION_NAME')
+AWS_SES_REGION_ENDPOINT = environ.get('AWS_SES_REGION_ENDPOINT')
+DEFAULT_FROM_EMAIL = environ.get('DEFAULT_FROM_EMAIL')
 
 
 # App and API secret for internal services
