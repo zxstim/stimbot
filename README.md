@@ -1,5 +1,5 @@
 # Pyhash Bot App
-Created by [@victoristocrat](https://github.com/victoristocrat) at [Pyhash.com](https://pyhash.com) team
+Created by [@victoristocrat](https://github.com/victoristocrat) at [Pyhash.com](https://pyhash.com)
 # Why open source?
 Algo trading has been a well-kept secret within the crypto industry. It is expensive to have access to developers with the expertise to build a fullstack trading app. So [@victoristocrat](https://github.com/victoristocrat) at [Pyhash.com](https://pyhash.com) decided to release our proprietary app to the world, aiming to empower everyone with the ability to use trading bots.
 # Who is this for?
@@ -12,6 +12,7 @@ You can be:
 - or practically anyone...
 # What is included?
 Both the Django backend app and the React frontend app are included in this repo. I am working on improving deployment process and documentation.
+
 # How to use?
 Please go over our Wiki page to find our 
 # Where to deploy
